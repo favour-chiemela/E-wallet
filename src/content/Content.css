@@ -1,0 +1,127 @@
+
+
+.outContainer { 
+	background: linear-gradient(to right,white,rgb(197, 227, 210));
+
+}
+
+@keyframes fadeUpAnimation {
+	from {
+		opacity: 0;
+		transform: translateY(100%);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.etext h1 {
+	animation: fadeUpAnimation 1s ease-in;
+	color: rgb(33, 15, 96);	
+	padding-top: 100px;
+	font-size: 45px;
+	font-weight: bolder;
+	margin-left: 80px;
+}
+.etext h1 span {
+	color: rgb(29, 201, 155);
+	font-weight: bolder;
+}
+.curved-text {
+	font-size: 36px;
+}
+.curved-line {
+	animation: fadeUpAnimation 1s ease-in;
+	width: 40%;
+	height: 30px;
+	margin-left: 200px;
+	fill: none;
+	stroke: rgb(33, 15, 96);
+	stroke-width: 10;
+}
+/* EPAY TEXT */
+.EpayText {
+    animation: fadeUpAnimation 1s ease-in;
+	width: 500px;
+	font-size: 20px;
+	color: rgb(33, 15, 96);
+	margin-left: 80px;
+}
+.outContainer{
+	display: flex;
+	justify-content: center;
+}
+/* Bodycard */
+.circle{
+	width: 420px;
+	height: 400px;
+	background-color:  rgb(33, 15, 96);
+	border-radius: 50%;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	margin-right: 190px;
+	margin-top: 200px;
+}
+.phone{
+	background-color: white;
+	border: 1px solid black;
+	width: 16%;
+	height: 70%;
+	box-shadow: 0px 0px 3px 2px;
+	border-radius: 30px;
+	display: flex;
+	position: absolute;
+	align-items: center;
+	margin-top: 8%;
+	top: 5;
+	right: 22%;
+}
+.outphone{
+	border: 1px solid black;
+	background-color: black;
+	border-radius: 0px 0px 20px 20px;
+	width: 50%;
+	height: 20px;
+	margin-left: 50px;
+	margin-bottom: 450px;
+}
+.inphone{
+	border: 2px solid rgb(87,213,182);
+	background-color: rgb(87,213,182);
+	border-radius: 10px;
+	width: 90%;
+	height: 160px;
+	padding: 2px;
+	margin-left: 7px;
+	position: absolute;
+	top: 39px;
+}
+.inerphone{
+	display: flex;
+	justify-content: space-evenly;
+}
+.total h5{
+	color: white;
+	margin-left: 20px;
+}
+.total h6{
+	color: white;
+}
+.transaction{
+	color: white;
+}
+.arrow{
+	display: flex;
+	justify-content: space-evenly;
+}
+.transfer #trans{
+	margin-left: 50px;
+}
+.transfer h6{
+	color: white;
+}
+.transfer2 h6{
+	color: white;
+}
+.withdraw{
+	color: white;
+}
